@@ -1,0 +1,30 @@
+.toropre p {
+    z-index: 1;
+    position: absolute;
+    margin:0;
+    padding-left:100%;
+    display:inline-block;
+    white-space:nowrap;
+    animation-name:torocomment2;
+    animation-timing-function:linear;
+    animation-duration:5s;
+    animation-iteration-count:1;
+}
+
+@keyframes torocomment1 {
+    from   { transform: translate(0%);}
+    99%,to { transform: translate(-100%);}
+}
+@keyframes torocomment2 {
+    from   {
+        transform: translate(0%);
+        opacity: 0;
+    }
+    55% {
+        opacity: 1;
+    }
+    99%,to {
+        transform: translate(-100%);
+        opacity: 0;
+    }
+}
