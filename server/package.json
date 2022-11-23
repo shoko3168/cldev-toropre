@@ -12,6 +12,6 @@
         "connect": "^3.7.0",
         "cookie": "^0.4.0",
         "date-utils": "^1.2.21",
-        "socket.io": "^2.3.0"
+        "socket.io": "^2.5.0"
     }
 }
